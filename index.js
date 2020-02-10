@@ -10,3 +10,4 @@ tom.eat(jerry);
 console.log(tom);
 pitbull.eat(tom);
 console.log(pitbull);
+console.log('goodbye !');
