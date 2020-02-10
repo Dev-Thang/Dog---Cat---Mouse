@@ -1,5 +1,5 @@
 function Cat() {
-	this.stomach =[];
+	this.stomach = [];
 	this.dead = false;
 }
 
@@ -13,4 +13,4 @@ Cat.prototype.eat = function(mouse)
 	mouse.die();
 }
 
-module exports = Cat;
+module.exports = Cat;

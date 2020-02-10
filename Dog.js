@@ -1,6 +1,5 @@
 function Dog() {
 	this.stomach = [];
-	this.dead = false;
 }
 
 Dog.prototype.die = function(){
@@ -8,6 +7,7 @@ Dog.prototype.die = function(){
 }
 Dog.prototype.eat = function(cat){
 	this.stomach.push(cat);
+	cat.die();
 }
 
-module exports = Dog;
+module.exports = Dog;
